@@ -32,9 +32,9 @@ class LineClient(LineApi):
     def _loginresult(self):
         if self.isLogin == True:
             print "====================================="
-			print "|          Created by T-K!          |"
-			print "|        Miranic.Bot  V 1.0         |"
-			print "====================================="
+	    print "|          Created by T-K!          |"
+	    print "|        Miranic.Bot  V 1.0         |"
+	    print "====================================="
             print "authToken : " + self.authToken + "\n"
             print "certificate : " + self.certificate + "\n"
             """:type profile: Profile"""
