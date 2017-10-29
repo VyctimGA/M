@@ -209,7 +209,6 @@ def SEND_MESSAGE(op):
                     sendMessage(msg.to, "%sseconds" % (elapsed_time))
 #-------------------------------------------------------------
                 if msg.text == "Spam":
-				printf("\n\nSPAMING_STARTED\n\n")
                     sendMessage(msg.to,"3")
                     sendMessage(msg.to,"2")
                     sendMessage(msg.to,"1")
