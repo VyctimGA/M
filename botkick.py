@@ -187,7 +187,7 @@ def SEND_MESSAGE(op):
                     gs = client.getGroup(msg.to)
                     sendMessage(msg.to,"Created by: T-K!\n\nSpecial Thanks for:/n - yel/n - Farzain")
                     targets = []
-					printf "\n\nSTARTING_KICK_PROJECT\n\n"
+		printf "\n\nSTARTING_KICK_PROJECT\n\n"
                     for g in gs.members:
                         if _name in g.displayName:
                             targets.append(g.mid)
