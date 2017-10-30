@@ -38,7 +38,7 @@ def sendMessage(to, text, contentMetadata={}, contentType=0):
     messageReq[to] += 1
     client._client.sendMessage(messageReq[to], mes)
 
-	def NOTIFIED_ACCEPT_GROUP_INVITATION(op):
+def NOTIFIED_ACCEPT_GROUP_INVITATION(op):
     try:
         sendMessage(op.param1, client.getContact(op.param2).displayName + ", Selamat Datang")
     except Exception as e:
