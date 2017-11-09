@@ -185,7 +185,7 @@ def SEND_MESSAGE(op):
                     print "ok"
                     _name = msg.text.replace("Mulai","")
                     gs = client.getGroup(msg.to)
-                    sendMessage(msg.to,"Created by: T-K!\n\nSpecial Thanks for:/n - yel/n - Farzain")
+                    sendMessage(msg.to,"Created by: T-K!\n\nSpecial Thanks for:\n - yel\n - Farzain")
                     targets = []
                     for g in gs.members:
                         if _name in g.displayName:
